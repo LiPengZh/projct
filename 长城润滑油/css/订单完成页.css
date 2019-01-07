@@ -1,0 +1,113 @@
+.cent_font span {
+    width: 23px;
+    height: 23px;
+    background: url(../img/blBg.png) no-repeat -442px -144px;
+    top: 5px;
+    right: 5px;
+}
+.goods_tistH3{
+    height: 34px;
+    width: 80px;
+    line-height: 34px;
+    padding: 0 25px;
+    background-color: #005BAA;
+}
+.borHecon {
+    border: solid 1px #BBB4B4;
+    padding: 8px 0 5px 8px;
+}
+.shPeopleh4 {
+    height: 30px;
+    line-height: 30px;
+    background-color: #DEDFDF;
+    margin-left: -23px;
+    padding-left: 23px;
+}
+.ation_tset p{
+    font-size: 14px;
+    line-height: 180%; 
+}
+.cartTable_dd,th,td {
+    border: solid 1px #BBB4B4;
+}
+.cartTable_dd th{
+    border: solid 1px #BBB4B4;
+    font-weight: bold;
+    height: 33px;
+    background-color: #999;
+    text-align: center;
+}
+.cartTable_dd th:first-child{
+    width: 285px;
+}
+.cartTable_dd th:nth-child(2){
+    width: 350px;
+}
+.cartTable_dd th:nth-child(3){
+    width: 180px;
+}
+.cartTable_dd th:nth-child(4){
+    width: 160px;
+}
+.cartTable_dd th:nth-child(5){
+    width: 200px;
+}
+.spMiaoSU {
+    width: 330px;
+    height: 20px;
+    padding: 0 10px;
+}
+.orderPayment {
+    background-color: #DEDFDF;
+    padding-right: 70px;
+    margin-left: -8px;
+}
+.orderPayment_t {
+    width: 267px;
+}
+.orderPayment_t p:nth-child(2){
+    border-bottom: solid 1px #B4B4B4;
+}
+/* ??? liebiao */
+.sequPrct {
+    border: solid 1px #ccc;
+    height: 50px;
+    background-color: #E0DEDA;
+}
+.sequPrctL_ul {
+    margin: 10px 0 0 12px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 1px #999;
+    border-left: 0 none;
+}
+.sequPrctL_ul li{
+    float: left;
+    border-left:solid 1px #999; 
+}
+.sequPrctL_ul li a {
+    float: left;
+    color: #666;
+    padding: 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sequPrctL_ul li a.tsHover {
+    background-color: #005BAC;
+    color: #fff;
+}
+.bo1{
+    width: 1200px;
+    height: 1320px;
+    margin: 0 auto;
+}
+.backToTop{
+    display: none;
+    background: url(../img/balance/result-top-btn.png) no-repeat;
+    width: 70px;
+    height: 65px;
+    position: fixed;
+    right: 50px;
+    bottom: 180px;
+    cursor: pointer;
+}

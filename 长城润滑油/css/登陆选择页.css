@@ -1,0 +1,38 @@
+.content_t{
+    min-height: 515px;
+    background: url(../img/loginChoice_con.png) no-repeat top center;
+}
+.content_t .titleH2{
+    width: 778px;
+    height: 60px;
+    background: url(../img/logtitleH2.png) no-repeat;
+}
+.choiceAn{
+    width: 778px;
+}
+.choiceAn div {
+    width: 352px;
+}
+.choiceAn div a {
+    width: 350px;
+    height: 72px;
+    line-height: 72px;
+}
+.choiceAn div a:hover{
+    text-decoration: none;
+}
+.activityRed{
+    background: url(../img/activityLanred.png) no-repeat;
+}
+.activityRed:hover{
+    background: url(../img/activityLanredhover.png) no-repeat;
+}
+.activityLan{
+    background: url(../img/activityLanhover.png) no-repeat;
+}
+.activityLan:hover{
+    background: url(../img/activityLan.png) no-repeat;
+}
+.activityhui{
+    background: url(../img/activityHui.png) no-repeat;
+}

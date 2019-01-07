@@ -1,0 +1,207 @@
+.detailsCon_Top {  
+    width: 1050px;
+}
+ /*fangdaJing  */
+.detailsCon_L{ 
+    width: 453px;
+    margin-left: 15px;
+}
+
+.detailsCon_R{  /* ???? */
+    width: 558px;
+    overflow: hidden;
+}
+.priceJ {
+    font-size: 36px;
+    color: #FFF;
+    background-color: #0056A9;
+    width: 510px;
+    height: 115px;
+    line-height: 115px;
+}
+.tb-thumb li{
+    float: left;
+    margin-right: 13px;
+    border: solid 1px #C1B9B9;
+    padding: 1px 6px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.tb-thumb li:hover{
+    border: solid 2px red;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.tb-thumb li b {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url(../img/tb-selected-b.gif) no-repeat;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+.cartNumber {
+    width: 92px;
+    height: 32px;
+}
+.put_shopSL{
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    border: #C1B9B9 solid 1px;
+}
+.z_put{
+    width: 25px;
+    height: 15px;
+    background: url(../img/cartNumberinp.jpg) no-repeat right bottom;
+    right: 0;
+    bottom: 0;
+}
+.j_put{
+    width: 25px;
+    height: 15px;
+    background: url(../img/cartNumberinp.jpg) no-repeat right top;
+    right: 0;
+    top: 0;
+}
+.jqzoom {
+	float: left;
+	border: none;
+	position: relative;
+	padding: 0px;
+	cursor: pointer;
+	margin: 0px;
+	display: block;
+}
+
+.jqzoom img {
+	width: 436px;
+	height: 436px;
+	background: url(http://www.lanrenzhijia.com/demo/images/loading.gif) no-repeat center center;
+}
+
+.zoomdiv {
+	z-index: 100;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #ffffff;
+	border: 1px solid #CCCCCC;
+	display: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+.jqZoomPup {
+	z-index: 10;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #aaa;
+	background: #ffffff;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}
+
+/*图片小图预览列表*/
+.spec-preview {
+	width: 436px;
+	height: 436px;
+	border: 1px solid #A9A9A8;
+}
+
+.items {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.items ul {
+	height: 80px;
+	width: 436px;
+}
+
+.items ul li {
+	float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.items ul li img {
+	width: 61px;
+	height: 61px;
+	margin: 0 2px 0 2px;
+}
+
+.items ul li img:hover {
+	border: 2px solid #000;
+	margin: 0;
+}
+.xingqing02{
+    margin-top: 20px;
+    width: 1050px;
+    height:518px ;
+}
+.cartGwc {
+    width: 183px;
+    height: 51px;
+    background: url(../img/shopGmcar.png) no-repeat;
+}
+.cartLjDh {
+    width: 183px;
+    height: 51px;
+    background: url(../img/shopGmcar.png) no-repeat right top;
+}
+.bo2{
+    width: 1020px;
+    height: 3048px;
+    margin: 0 auto;
+}
+.cpdhL_title{
+    height: 38px;
+    line-height: 38px;
+    background-color: #005BAA;
+}
+.cpdh li{
+    margin-bottom: 15px;
+}
+.cpdh li img{
+    border: #E1E1E1 solid 1px;
+}
+.fangda{
+    width: 453px;
+    height: 518px;
+    background: sandybrown;
+    float: left;
+}
+.hot_xqR{
+    width: 925px;
+    overflow: hidden;
+}
+.hot_xqR_title{
+    height: 37px;
+    background: url(../img/detailsXq/goodsThe.jpg) repeat-x bottom;
+}
+.hot_xqR_title li {
+    float: left;
+    width: 110px;
+    background-color: #93BCE0;
+    margin-right: 2px;
+    height: 33px;
+    line-height: 33px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.hot_xqR_title li.xxCurrent {
+    background-color: #005BAA;
+}

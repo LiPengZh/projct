@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/购物车.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <script src="../js/jquery-1.8.3.min.js "></script>
+    <script src="../js/shurukong.js"></script>
+    <script src="../js/changshipingdao.js"></script>
+    <script src="../js/shanchu.js"></script>
+    <script src="../js/jianhao.js"></script>
+    <script src="../js/jiahao.js"></script>
+    
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="headertop">
+                <ul class="liebiao">
+                    <li>
+                        <a href="javascript:0" class="my_a">Hi,ROOTOO1</a>
+                    </li>
+                    <li>
+                        目前积分 : 7864
+                    </li>
+                    <li>
+                            退出
+                    </li>
+                    <li>
+                            修改密码
+                    </li>
+                    <li>
+                            <a href="javascript:0" class="my_a">返回活动选择页</a>
+                    </li>
+                </ul>
+        </div>
+
+        <div class="headerboy">
+            <img src="../img/serveDh.png" >
+            <div class="headeryou">
+            <form class="you">
+                <input type="text" value="输入关键字" class="my_input">
+                <input title="搜索" type="submit" value>
+            </form>
+            <ul class="liebiao03">
+                <li>热搜关键词:</li>
+                <li>金吉星</li>
+                <li>机油</li>
+                <li>工作手套</li>
+                <li>POLO衫</li>
+            </ul>
+        </div>
+        </div>
+        <!-- 列表 -->
+        <div class="footer">
+            <div class="footer01">
+                <div class="yinchag">
+               <p class="my_p">
+                    <img src="../img/frequeL1.png" alt="" >
+                    <a>城频道分类</a>
+               </p>
+
+               <ul class="channelMall pa f16  yincang">
+                <li><img src="../img/frequeL3.png"><a href="#">家居生活</a><span class="ml10 colorfff">&gt;</span></li>
+                <li><img src="../img/frequeL2.png"><a href="#">汽车养护</a><span class="ml10 colorfff">&gt;</span></li>
+                <li><img src="../img/frequeL4.png"><a href="#">我要服务</a><span class="ml10 colorfff">&gt;</span></li>
+                <div class="double pa tc">
+                    <img src="../img/doubleR.png" width="31" height="38">
+                    <a class="colorfff f16 font_fam fb ml5" href="#">分公司查询登陆</a>
+                </div>
+            </ul>
+        </div>
+
+               <ul class="headerMenu_ul clearfix f16 font_fam">
+                    <li class="headerMenu_Fis"><a href="#" style="color: #ffffff ;"><img class="fl" src="../img/indMenuBg.png">首页</a></li>
+                    <li><a href="#" style="color: #ffffff ;">活动机制</a></li>
+                    <li><a href="#" style="color: #ffffff ;">下单流程</a></li>
+                    <li><a href="#" style="color: #ffffff ;">质保机制</a></li>
+                    <li><a href="#" style="color: #ffffff ;">服务中心</a></li>
+                    <li><a href="#" style="color: #ffffff ;">订单中心</a></li>                                                                      
+                </ul>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <!-- body -->
+    <div class="bo">
+   
+    <ul class="liebiao07">
+            <li>你当前的位置:</li>
+            <li>首页</li>
+            <li>></li>
+            <li>购物车</li>
+        </ul>
+
+        <img src="../img/conBanner.png" alt="" width="1200" height="300"  style="margin-top:15px">
+        <h3 >
+        <span class="ospan">产品列表</span>
+         </h3>
+
+         <!-- 选择框 -->
+            <div class="xuanze">
+                <div class="xuanzezou">
+
+                <input type="checkbox" class="xuanze01">
+                <label><span>全选</span></label>
+            </div>
+                <span class="ospan01"><a href="javascript:;">清空购物车</a></span>
+            </div>
+        <!-- 中 -->
+        <div class="zzuida">
+               <table>
+                   <tr class="tao">
+                       <td class="td01">商品名称</td>
+                       <td class="td02">积分</td>
+                       <td class="td03">数量</td>
+                       <td class="td04">小计</td>
+                       <td class="td05">规则备注</td>
+                       <td class="td06">操作</td>
+                   </tr>
+                   <tr class="t1r1">
+                        <td class="td07">
+
+                            <input type="checkbox">
+
+                            <a href="#">
+                                <img src="../img/products3.png" alt="">
+                            </a>
+                            <span>伯尔双胆正品</span>
+                        </td>
+                        <td class="td08">52.00</td>
+                        <td class="td09">
+                            <div class="cartNumber">
+                                <input class="inpNumber f16 fb jianhao" id="but_decr1" type="button"  value="-" onClick="return boutton(1,1);">
+                                <input class="zhi" title="1" value="1" type="text" style="width:70px;height:25px;border: none;text-align: center;border: solid 1px #CDCDCD" >
+                                <input class="inpNumber f16 fb jiahao" type="button" id="but_incr1" value="+" onClick="return boutton(0,1);">
+                            </div>
+                        </td>
+                        <td class="td10">52.00积分</td>
+                        <td class="td11">5L白色</td>
+                        <td class="td12"><a href="javascript:;">删除</a></td>
+                    </tr>
+                    <tr>
+                            <td class="td07">
+    
+                                <input type="checkbox">
+    
+                                <a href="#">
+                                    <img src="../img/products7.png" alt="">
+                                </a>
+                                <span>便携式音箱SBM100三种<br>色系丰富视觉选择wOOx扬声器式音箱</span>
+                            </td>
+                            <td class="td08">82.00</td>
+                            <td class="td09">
+                                <div class="cartNumber">
+                                    <input class="inpNumber f16 fb" id="but_decr1" type="button"  value="-" onClick="return boutton(1,1);">
+                                    <input title="1" value="1" type="text" style="width:70px;height:25px;border: none;text-align: center;border: solid 1px #CDCDCD" >
+                                    <input class="inpNumber f16 fb" type="button" id="but_incr1" value="+" onClick="return boutton(0,1);">
+                                </div>
+                            </td>
+                            <td class="td10">82.00积分</td>
+                            <td class="td11">直径28cm、黑色</td>
+                            <td class="td12"><a href="javascript:;">删除</a></td>
+                            
+                        </tr>
+                        <tr>
+                                <td class="td07">
+        
+                                    <input type="checkbox">
+        
+                                    <a href="#">
+                                        <img src="../img/products2.png" alt="">
+                                    </a>
+                                    <span >便携式音箱SBM100三种<br>色系丰富视觉选择wOOx</span>
+                                </td>
+                                <td class="td08">82.00</td>
+                                <td class="td09">
+                                    <div class="cartNumber">
+                                        <input class="inpNumber f16 fb" id="but_decr1" type="button"  value="-" onClick="return boutton(1,1);">
+                                      <input title="1" value="1" type="text" style="width:70px;height:25px;border: none;text-align: center;border: solid 1px #CDCDCD" >
+                                        <input class="inpNumber f16 fb" type="button" id="but_incr1" value="+" onClick="return boutton(0,1);">
+                                    </div>
+                                </td>
+                                <td class="td10">82.00积分</td>
+                                <td class="td11">直径28cm、黑色</td>
+                                <td class="td12"><a href="javascript:;">删除</a></td>
+                            </tr>
+                            <tr>
+                                    <td class="gwOpera clearfix f14 font_fam" colspan="6">
+                                        <input class="selectQx_inp mt18 fl mr10 curaor_pointer ml10" type="checkbox" name="quanXuan">
+                                        <label class="fl">全选</label>
+                                        <span class="fl ml30 curaor_pointer" onClick="outDe()">删除</span>
+                                        <div class="fr mr10">
+                                            <p class="fl mr40">已选商品<span class="electNum colorFC0C0C fb f16">0</span>件</p>
+                                            <p class="fl mr40">已选商品总额：<span class="colorFC0C0C fb f16"><em class="totalNum fb f16">0.00</em>积分</span></p>
+                                            <p class="fl">账户余额：<span class="colorFC0C0C fb f16"><em class="fb f16">278.00</em>积分</span></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                               
+               </table>
+               <div class="immedOrder clearfix pt20 pl20 pr20 pb20">
+                    <a class="shopA fl" href="#"></a>
+                    <a class="learingA fr" href="#"></a>
+                </div>
+               
+        </div>
+    </div>
+  
+     <!-- 底部 -->
+     <div class="footer01 w100">
+            <div class="w1200 margin_auto tc mt30"><img src="../img/foorterImg.jpg" width="850" height="135"></div>
+            <div class="footerBou mt30 tc">
+                <ul class="footerBou_ul clearfix pt35 w1200 margin_auto font_fam">
+                    <li><a href="#">订单帮助</a></li>
+                    <li><a href="#">礼品售后</a></li>
+                    <li><a href="#">投诉说明</a></li>
+                    <li><a href="#">法律声明</a></li>
+                    <li style="border:0 none;"><a href="#">友情链接</a></li>                                                                                      
+                </ul>
+                <p class="colorfff mt25">版权所有&nbsp;&nbsp;沪ICP备12038387号</p>
+            </div>
+        </div>
+
+<!-- top -->
+        <div class="backTotop" title style="display: block"> </div>
+   
+    
+</body>
+</html>

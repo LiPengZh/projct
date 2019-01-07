@@ -1,0 +1,279 @@
+.header{
+    width: 100%;
+    height: 193px;
+   
+    
+}
+.headertop{
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #cccc;
+}
+.liebiao{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    
+
+}
+.liebiao li{
+    float: left;
+    background: url(../img/headerTop_ulli.png)no-repeat top right;
+    padding: 0 15px;
+    line-height: 36px;
+   
+}
+.my_a{
+    line-height: 36px;
+    color: #0066CC;
+}
+.headerboy{
+    width: 1200px;
+    height: 116px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerboy img{
+    margin-top: 30px
+}
+.headeryou{
+    width: 298px;
+    height: 55px;
+    float: right;
+    margin-top: 40px;
+}
+.you{
+    width: 298px;
+    height: 32px;
+    background: url(../img/searchDiv_form.png) 
+    no-repeat top right;    
+}
+.you input{
+    border: none;
+    margin-left: 42px;
+    margin-top: 5px; 
+}
+.my_input{
+    color: rgb(113, 115,113)
+}
+.liebiao03 li{
+    float: left;
+    padding-right: 14px;
+    padding-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background: #005BAC;
+    line-height: 40px;
+}
+.footer01{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+.my_p{
+    width: 236px;
+    float: left;
+}
+.my_p img{
+ margin-bottom: 10px;
+}
+.my_p a{
+    font-size: 18px;
+    color: #ffffff
+}
+.my_li{
+    float: left;
+    width: 800px;
+    height: 40px;
+    float: left;
+    background: salmon
+}
+.my_li img{
+    margin: -10px 1px 0 0 ;
+
+
+}
+.my_li a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.headerMenu{ height:40px; line-height:40px; background-color:#005BAC;}
+.headerMenu_ul{ margin-left:280px;}
+.headerMenu_ul li{ float:left; background:url(../img/headerMenu_ulli.png) no-repeat top right; padding:0 32px;}
+.headerMenu li a{ float:left; color: #ffffff ; }
+.headerMenu_Fis img{ margin:12px 10px 0 0;}
+.bo{
+  width: 1200px;
+ height: 976px;
+  margin: 0 auto;
+  
+  margin-top: 15px;
+}
+
+.liebiao07{
+ clear: both;
+}
+.liebiao07 li{
+    float: left;
+    font-size: 18px;
+    color: #666;
+}
+.ospan{
+    font-size: 18px;
+    color: #ffffff;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 25px;
+    background-color: #005BAA;
+}
+.xuanze01{
+    margin-right: 10px;
+    margin-top: 3px
+}
+
+/* 隐藏部分 */
+.channelMall{
+    width: 230px;
+    height: 450px;
+    background-color:#005BAC;
+    margin-top: 40px;
+    margin-left: -26px;
+   
+}
+.channelMall li{
+    height: 55px;
+    line-height: 55px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.channelMall li img{
+    margin: 3px 10px 0 20px;
+}
+.channelMall li a{
+    color: #ffffff;
+}
+.double{
+ margin-top: 130px;
+ width: 250px;
+ height: 50px;
+ line-height: 50px;
+ background-color: #005BAC;
+ margin-left: -8px;
+
+}
+.yincang{
+    display: none;
+}
+
+.xuanze{
+    width: 100%;
+    height: 30px;
+  
+}
+
+.xuanzezou{
+    width: 51px;
+    height: 30px;
+    float: left;
+
+}
+.xuanzezou input{
+    margin-top: 9px;
+    margin-right: 10px;
+}
+.xuanzezou label span{
+    margin-right: -2px;
+}
+.ospan01{
+    width: 111px;
+    height: 30px;
+    background: red;
+    float: right;
+    line-height: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.zzuida{
+    width: 1200px;
+    height: 500px;
+    /* background: sienna; */
+    margin-top: 10px;
+    padding-top: 10px;
+    border: 1px solid #666;
+}
+table {
+    margin-left: 15px;
+    
+}
+table .tao{
+    background: #999999;
+    color: #ffffff;
+    font-size: 16px;
+}
+table tr td{
+    border-right: 1px solid #BBB4B4;
+    height: 30px;
+    border-left: 1px solid #BBB4B4;
+    text-align: center;
+    border-bottom: 1px solid #BBB4B4;
+    border-top: 1px solid #BBB4B4;
+}
+.td01{
+    width: 300px;
+    
+}
+.td02{
+    width: 135px;
+    
+}
+.td03{
+    width: 185px;
+    
+}
+
+.td04{
+    width: 168px;
+    
+}
+
+.td05{
+    width: 250px; 
+}
+.td06{
+    width: 125px;  
+}
+.td07{
+    width: 303px;
+    height: 120px;
+
+}
+.td07 input{
+     float: left;
+     margin: 30px 10px 0 10px;
+}
+.td07 img{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.td07 span{
+    color: #666;
+    width: 160px;
+    height: 22px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 7px;
+   font-size :16px;
+}
+.shopA{ width:183px; height:50px; background:url("../img/immedOrder.png" ) no-repeat;}
+.learingA{ width:183px; height:50px; background:url("../img/immedOrder.png") no-repeat bottom;}
+.backgroundF7E5C6{ background-color:#F7E5C6;}
+.footerBou{ height:123px; background-color:#999;}
+.footerBou_ul li{ display:inline-block; font-size:15px; width:135px; border-right:2px #fff solid;}
+.footerBou_ul li a{ color:#fff;}
